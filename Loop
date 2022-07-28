@@ -1,0 +1,18 @@
+/***************************************************************************************************************************************************************
+** The Looping function in PYTHON ******
+
+** For Loop is used this way:  **
+** For each_student in students:  **
+       print(each_student)            **
+
+**while Loop is used this way: **
+ count = 0
+ while count < len(students):            **
+       print (movies[count])  **
+       count = count + 1  **
+**
+<=========== The difference between for and while loop is that ==========================>
+** When you use the while loop, you have to worry about the state information, which require you to employ a counting identifier. **
+** When you use the for loop, python interpreter worries about the state information  for you **
+
+**/
