@@ -1,0 +1,8 @@
+// fail test in python
+
+import unittest
+class TestFail(unittest.TestCase):
+    def test_false(self):
+        self.assertTrue(False)
+
+unittest.main()
