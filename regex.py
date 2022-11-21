@@ -1,4 +1,6 @@
 import re
 
-if re.search('ape', 'the ape was at the apex'):
-    print("there is a ape")
+allApes =  re.findall('ape.', 'the ape was at the apex')
+
+for i in allApes:
+    print(i)
