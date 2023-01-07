@@ -1,6 +1,10 @@
 import re
 
-allApes =  re.findall('ape.', 'the ape was at the apex')
+theStr =  re.findall('ape.', 'the ape was at the apex')
 
-for i in allApes:
-    print(i)
+for i in re.finditer('ape.', theStr):
+
+    locTuple = i.span()
+
+    print(locTuple)
+    print(theStr[locTuple[0]:locTuple[i]])
